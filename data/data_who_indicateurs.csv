@@ -1,0 +1,49 @@
+indicateur,code,keyword,source,origine
+Legally-binding controls on lead paint,LEADCONTROL,pain,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/LEADCONTROL,OMS/WHO
+Oral health: Urgent treatment for providing emergency oral care and pain relief,ORALHEALTH_AVAILABILITY_URGENTCARE,pain,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/ORALHEALTH_AVAILABILITY_URGENTCARE,OMS/WHO
+General availability of bone marrow transplantation in the public health system,NCD_CCS_bone_marrow,bone,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/NCD_CCS_bone_marrow,OMS/WHO
+Identification of other plans in which dementia is integrated (Disability),GDO_Q2x2x1_DISAB,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/GDO_Q2x2x1_DISAB,OMS/WHO
+Disability-adjusted life years (DALYs),GHE_DALYNUM,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/GHE_DALYNUM,OMS/WHO
+Disability-adjusted life years (DALYs) (per 100 000 population),GHE_DALYRATE,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/GHE_DALYRATE,OMS/WHO
+Years of healthy life lost due to disability (YLDs) (per 100 000 population),GHE_YLDRATE,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/GHE_YLDRATE,OMS/WHO
+Years of healthy life lost due to disability (YLDs),GHE_YLDNUM,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/GHE_YLDNUM,OMS/WHO
+"Government benefits for alcohol use disorders, subsidy or disability pension",RSUD_27,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/RSUD_27,OMS/WHO
+"Government benefits for drug use disorders, subsidy or disability pension",RSUD_28,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/RSUD_28,OMS/WHO
+Disability-adjusted life years (DALYs) attributable to the environment,TOTENV_3,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/TOTENV_3,OMS/WHO
+Disability-adjusted life years (DALYs) attributable to the environment (%),TOTENV_6,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/TOTENV_6,OMS/WHO
+Years of healthy life lost to disability (YLDs) due to leptospirosis,LEPTO_YLD,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/LEPTO_YLD,OMS/WHO
+Disability-adjusted life years (DALYs) due to leptospirosis,LEPTO_DALY,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/LEPTO_DALY,OMS/WHO
+Disability-adjusted life years (DALYs) (per 100 000 population) due to leptospirosis,LEPTO_DALY100K,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/LEPTO_DALY100K,OMS/WHO
+Foodborne disability-adjusted life years per 100 000,FOODBORNE_DALY_100k,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_100k,OMS/WHO
+"Foodborne disability-adjusted life years, aged 5 years and above",FOODBORNE_DALY_GE5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_GE5,OMS/WHO
+"Years lived with disability caused by hazards, all ages",HAZARD_YLD_TOTAL,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/HAZARD_YLD_TOTAL,OMS/WHO
+"Foodborne disability-adjusted life years per case, aged 5 years and above",FOODBORNE_DALY_CASE_GE5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_CASE_GE5,OMS/WHO
+"Foodborne disability-adjusted life years, aged less than 5 years",FOODBORNE_DALY_LT5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_LT5,OMS/WHO
+"Years lived with disability caused by hazards, aged 5 years and above",HAZARD_YLD_GE5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/HAZARD_YLD_GE5,OMS/WHO
+Foodborne disability-adjusted life years,FOODBORNE_DALY,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY,OMS/WHO
+"Years lived with disability caused by hazards, aged less than 5 years",HAZARD_YLD_LT5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/HAZARD_YLD_LT5,OMS/WHO
+Foodborne years lived with disability per 100 000,FOODBORNE_YLD_100K,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_100K,OMS/WHO
+"Disability-adjusted life years caused by hazards, all ages",HAZARD_DALY_TOTAL,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/HAZARD_DALY_TOTAL,OMS/WHO
+"Foodborne years lived with disability, aged less than 5 years",FOODBORNE_YLD_LT5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_LT5,OMS/WHO
+"Foodborne years lived with disability, all ages",FOODBORNE_YLD_TOTAL,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_TOTAL,OMS/WHO
+Disability-adjusted life years (DALYs),GHE_DALY_NUMERIC,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/GHE_DALY_NUMERIC,OMS/WHO
+"Foodborne years lived with disability per case, aged 5 years and above",FOODBORNE_YLD_CASE_GE5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_CASE_GE5,OMS/WHO
+"Foodborne years lived with disability, aged 5 years and above",FOODBORNE_YLD_GE5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_GE5,OMS/WHO
+"Foodborne years lived with disability per case, aged less than 5 years",FOODBORNE_YLD_CASE_LT5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_CASE_LT5,OMS/WHO
+"Disability-adjusted life years caused by hazards, aged 5 years and above",HAZARD_DALY_GE5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/HAZARD_DALY_GE5,OMS/WHO
+"Disability-adjusted life years caused by hazards, aged less than 5 years",HAZARD_DALY_LT5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/HAZARD_DALY_LT5,OMS/WHO
+"Foodborne years lived with disability per 100 000, all ages",FOODBORNE_YLD_100K_TOTAL,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_100K_TOTAL,OMS/WHO
+"Foodborne years lived with disability per 100 000, aged less than 5 years",FOODBORNE_YLD_100K_LT5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_100K_LT5,OMS/WHO
+Years of healthy life lost to disability (YLDs) (per 100 000 population) due to leptospirosis,LEPTO_YLD100K,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/LEPTO_YLD100K,OMS/WHO
+"Foodborne disability-adjusted life years per 100 000, aged 5 years and above",FOODBORNE_DALY_100k_GE5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_100k_GE5,OMS/WHO
+"Foodborne disability-adjusted life years per case, aged less than 5 years",FOODBORNE_DALY_CASE_LT5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_CASE_LT5,OMS/WHO
+"Foodborne years lived with disability per 100 000, aged 5 years and above",FOODBORNE_YLD_100K_GE5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_100K_GE5,OMS/WHO
+"Foodborne disability-adjusted life years per 100 000, aged less than 5 years",FOODBORNE_DALY_100k_LT5,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_100k_LT5,OMS/WHO
+Foodborne years lived with disability per case,FOODBORNE_YLD_CASE,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_CASE,OMS/WHO
+"Foodborne disability-adjusted life years, all ages",FOODBORNE_DALY_TOTAL,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_TOTAL,OMS/WHO
+Years of healthy life lost due to disability (YLDs),GHE_YLD_NUMERIC,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/GHE_YLD_NUMERIC,OMS/WHO
+Foodborne years lived with disability,FOODBORNE_YLD,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD,OMS/WHO
+"Foodborne years lived with disability per case, all ages",FOODBORNE_YLD_CASE_TOTAL,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_YLD_CASE_TOTAL,OMS/WHO
+Foodborne disability-adjusted life years per case,FOODBORNE_DALY_CASE,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_CASE,OMS/WHO
+"Foodborne disability-adjusted life years per case, all ages",FOODBORNE_DALY_CASE_TOTAL,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_CASE_TOTAL,OMS/WHO
+"Foodborne disability-adjusted life years per 100 000, all ages",FOODBORNE_DALY_100k_TOTAL,disability,https://www.who.int/data/gho/data/indicators/indicator-details/GHO/FOODBORNE_DALY_100k_TOTAL,OMS/WHO

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="drawio" modified="2026-06-06" agent="GitHub Copilot" version="24.0" type="device">
+  <diagram id="ElaraMed_Project" name="Architecture">
+    <mxGraphModel dx="1050" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Titre -->
+        <mxCell id="title" value="ElaraMed - Data Science Pipeline" style="text;fontSize=20;fontStyle=1;align=center" vertex="1" parent="1">
+          <mxGeometry x="200" y="20" width="600" height="40" as="geometry"/>
+        </mxCell>
+        
+        <!-- Data Sources -->
+        <mxCell id="orphanet" value="Orphanet Data&#10;(Web Scraping)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6E6" vertex="1" parent="1">
+          <mxGeometry x="50" y="120" width="140" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="who" value="WHO Data&#10;(CSV Files)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6E6" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="140" height="80" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="phenotypes" value="Phenotypes&#10;(XML Data)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6E6" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="140" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Data Cleaning -->
+        <mxCell id="cleaning" value="Data Cleaning&#10;(cleaning.ipynb)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F3FF" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- EDA -->
+        <mxCell id="eda" value="Exploratory Data Analysis&#10;(EDA.ipynb)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFE6" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- ML -->
+        <mxCell id="ml" value="Machine Learning&#10;(ML.ipynb)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E6" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Output -->
+        <mxCell id="results" value="Results &amp; Figures&#10;(Figures/)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0E6FF" vertex="1" parent="1">
+          <mxGeometry x="200" y="640" width="160" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Data Storage -->
+        <mxCell id="data" value="Data Storage&#10;(data/)" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#E6E6E6" vertex="1" parent="1">
+          <mxGeometry x="650" y="380" width="120" height="80" as="geometry"/>
+        </mxCell>
+        
+        <!-- Edges from sources to cleaning -->
+        <mxCell id="edge1" edge="1" parent="1" source="orphanet" target="cleaning">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="edge2" edge="1" parent="1" source="who" target="cleaning">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="edge3" edge="1" parent="1" source="phenotypes" target="cleaning">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Pipeline edges -->
+        <mxCell id="edge4" edge="1" parent="1" source="cleaning" target="eda">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="330" as="sourcePoint"/>
+            <mxPoint x="280" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge5" edge="1" parent="1" source="eda" target="ml">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="460" as="sourcePoint"/>
+            <mxPoint x="280" y="510" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge6" edge="1" parent="1" source="ml" target="results">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="590" as="sourcePoint"/>
+            <mxPoint x="280" y="640" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Data storage connections -->
+        <mxCell id="edge7" edge="1" parent="1" source="data" target="cleaning" style="dashed=1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="290" as="sourcePoint"/>
+            <mxPoint x="360" y="290" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="edge8" edge="1" parent="1" source="data" target="eda" style="dashed=1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="420" as="sourcePoint"/>
+            <mxPoint x="360" y="420" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend" value="📊 Data Sources  |  🔧 Processing  |  📈 Analysis  |  🤖 ML  |  📁 Storage" style="text;fontSize=11;align=center;fillColor=#FFFFFF;strokeColor=#CCCCCC" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="900" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
